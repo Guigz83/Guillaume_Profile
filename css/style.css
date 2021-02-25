@@ -1,0 +1,75 @@
+@import url("components/container.css");
+@import url("components/img-cercle.css");
+@import url("components/button.css");
+@import url("components/card-grey.css");
+@import url("components/list-inline.css");
+@import url("components/banner.css");
+@import url("components/btn-white.css");
+
+
+head {
+	text-align: center;
+}
+
+body {
+	background-color: rgb(130,130,130);
+	color:	rgb(0, 0, 0);
+	font-family: 'Zilla Slab', serif;
+	font-size: 20px;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	    font-family: 'Oi', cursive;
+}
+
+h2 {
+	color: rgb(236,245,11);
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+h3 {
+	color: rgb(236,245,11);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(49,140,231);
+	font-weight: bold;
+}
+
+#introduction p {
+	margin: 40px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+	.img-cercle {
+		width: 600px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+	.img-cercle {
+		width: 400px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+	.img-cercle {
+		width: 250px;
+	}
+}
+
+
+

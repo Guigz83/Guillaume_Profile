@@ -1,0 +1,9 @@
+.card-grey {
+	background: rgba(169, 169, 169, 0.8);
+	padding: 30px;
+	margin: 30px 8px;
+	box-shadow: 0px 5px 20px rgba(236,245,11,0.8);
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+}
